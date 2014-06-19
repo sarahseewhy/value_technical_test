@@ -1,0 +1,16 @@
+{
+  "name": "coding-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap ./test",
+    "preinstall": "npm install -g tap"
+  },
+  "preferGlobal": true,
+  "author": "",
+  "license": "ISC"
+}
