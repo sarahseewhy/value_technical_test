@@ -6,7 +6,7 @@ Exercise 2
 
 1. Understand assignment: 
 	
-	I need to create a function 'Value' that returns an object that stores a number. The value of the returned object can be altered ('mutable') but there should be a min and a max boundary. 
+	I need to create a function 'Value' that returns an object. The returned object stores a number. The value of the returned object can be altered ('mutable') but there should be a min and a max boundary. 
 
 	It should behave in the following way:
 
@@ -23,7 +23,9 @@ Exercise 2
 
   1) Write a function called 'Value'
   
-  2) Value returns an object that stores a number
+  2) Value returns an object
+
+  3) The returned object stores a number
 	
 	3) The value of the returned object will be mutable
 	

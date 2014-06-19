@@ -7,11 +7,11 @@ test('Value is defined', function(t){
 });
 // tests that Value is a function
 
-// test('Value has no enumerable properties', function(t){
-//   t.equal(Object.keys(Value()).length, 0);
-//   t.end();
-// });
-// testing to see if value contains an empty hash
+test('Value has no enumerable properties', function(t){
+  t.equal(Object.keys(Value()).length, 0);
+  t.end();
+});
+// testing to see if Value contains an empty hash
 
 // test('property .value is defined', function(t){
 //   t.notEqual(Value({max: 1, value: Math.random()}), void 0);
