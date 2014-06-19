@@ -19,3 +19,6 @@ Exercise 2
   v2.value = 101
   //=> Error: Out of bounds
 	```
+2. Break down assignment into smaller pieces.
+
+..1) Write a function called 'Value'
