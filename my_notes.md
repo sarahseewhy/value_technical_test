@@ -21,4 +21,16 @@ Exercise 2
 	```
 2. Break down assignment into smaller pieces.
 
-..1) Write a function called 'Value'
+  1) Write a function called 'Value'
+  
+  2) Value returns an object that stores a number
+	
+	3) The value of the returned object will be mutable
+	
+	4) The value of the returned object is protected by a minimum bound
+	
+	5) The value of the returned object is protected by a maximum bound
+	
+	6) It should behave in the above manner
+
+
