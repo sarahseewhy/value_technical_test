@@ -1,6 +1,4 @@
-// creating function Value with parameters 'options'
 function Value(options){
-	// 
 	this.value = options.value;
 
 }

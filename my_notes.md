@@ -36,5 +36,11 @@ Exercise 2
 	6) It should behave in the above manner
 
 
-3. Think about assignment in familiar terms (appreciating translating directly can cause hiccups)
+3. If stuck, think about assignment in familiar terms (remaining aware that translating directly can cause hiccups)
+
+
+
+
+
+
 
