@@ -36,23 +36,8 @@ Exercise 2
 	6) It should behave in the above manner
 
 
-3. If stuck, think about assignment in familiar terms (remaining aware that translating directly can cause hiccups)
+3. If stuck, think about or brainstorm assignment in familiar terms (cognisant that translating directly can cause hiccups) - see value.rb
 
-  1) Write function called 'Value'
-
-  	Class Value
-
-  	end
-
-  2) Value returns an object
-
-		Class Value
-
-			def return_object(object)
-				object
-			end
-			
-		end
 
 
 
