@@ -1,9 +1,9 @@
 function Value(options){
-	this.value = options.value;
+	this.value = options.value
 
 }
 
 module.exports = function(options) {
-	var result = new Value(options)
+	var result = new Value(options);
 	return result;
 }

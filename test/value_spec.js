@@ -5,13 +5,13 @@ test('Value is defined', function(t){
   t.type(Value, 'function');
   t.end();
 });
-// tests that Value is a function
+// tests that Value is defined
 
 test('Value has no enumerable properties', function(t){
+	// 
   t.equal(Object.keys(Value()).length, 0);
   t.end();
 });
-// testing to see if value contains an empty hash
 
 // test('property .value is defined', function(t){
 //   t.notEqual(Value({max: 1, value: Math.random()}), void 0);
