@@ -36,7 +36,7 @@ Exercise 2
 	6) It should behave in the above manner
 
 
-3. If stuck, think about or brainstorm assignment in familiar terms (cognisant that translating directly can cause hiccups) - see value.rb
+3. If stuck, think about or brainstorm assignment in familiar terms (cognisant that translating directly can cause hiccups) - see scratchpad.rb
 
 
 
