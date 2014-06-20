@@ -1,9 +1,13 @@
+// creating function Value with parameters 'options'
 function Value(options){
-	this.value = options.value
+	// intializing Value
+	this.options = options;
 
 }
 
+
+
 module.exports = function(options) {
-	var result = new Value(options);
+	var result = new Value(options)
 	return result;
 }

@@ -12,11 +12,13 @@ test('Value has no enumerable properties', function(t){
   t.equal(Object.keys(Value()).length, 0);
   t.end();
 });
+// tests to see if I've created a custom getter/setter (thank you research!)
+// saving this test for later 
 
-// test('property .value is defined', function(t){
-//   t.notEqual(Value({max: 1, value: Math.random()}), void 0);
-//   t.end();
-// });
+test('property .value is defined', function(t){
+  t.notEqual(Value({max: 1, value: Math.random()}), void 0);
+  t.end();
+});
 // tests that the value is not undefined
 
 // test('.value should be 0 by default', function(t){
@@ -29,7 +31,7 @@ test('Value has no enumerable properties', function(t){
 //   t.equal(Value({value: 2}).value, 2);
 //   t.end();
 // });
-// tests that a value can be set immediately when the function is called
+// tests that a value can be set immediately
 
 // test('.value is between 0 and 1', function(t){
 //   var val = Value({max: 1, value: Math.random()});
