@@ -4,7 +4,7 @@ Exericse 1
 
 Exercise 2
 
-1. Understand assignment: 
+1. Understand assignment 
 	
 	I need to create a function 'Value' that returns an object. The returned object stores a number. The value of the returned object can be altered ('mutable') but there should be a min and a max boundary. 
 
@@ -35,4 +35,6 @@ Exercise 2
 	
 	6) It should behave in the above manner
 
+
+3. Think about assignment in familiar terms (appreciating translating directly can cause hiccups)
 
