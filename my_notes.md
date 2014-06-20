@@ -38,6 +38,11 @@ Exercise 2
 
 3. If stuck, think about assignment in familiar terms (remaining aware that translating directly can cause hiccups)
 
+  1) Write function called 'Value'
+
+  	Class Value
+
+  	end
 
 
 
