@@ -44,7 +44,15 @@ Exercise 2
 
   	end
 
+  2) Value returns an object
 
+		Class Value
+
+			def return_object(object)
+				object
+			end
+			
+		end
 
 
 
