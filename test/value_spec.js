@@ -8,6 +8,9 @@ test('Value is defined', function(t){
 // tests that Value is a function
 
 test('Value has no enumerable properties', function(t){
+	// t.equal(a, b, msg)
+	// Asserts that a === b w/ optional message
+	// Asserts that Object.keys(Value()).length === 0 
   t.equal(Object.keys(Value()).length, 0);
   t.end();
 });
