@@ -19,12 +19,13 @@ function Value(options){
 		enumberable: false,
 		configurable: true,
 		writable: true,
-		value: "not sure yet"} 
+		value: 0} 
 	);
 
 	// Test 3 requires that the property .value be 0 by default
 	// Based on my reading I think I would need to change 
 	// the property descriptor value to 0 for this test to pass
+
 }
 
 module.exports = function(options) {
