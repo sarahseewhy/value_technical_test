@@ -17,14 +17,16 @@ function Value(options){
 	// 	enumberable: false
 	// 	configurable: true
 	// 	writable: true
-	// 	value: ...not sure yet, I'll put null and see what happens (this needs to be both not undefined and 0)
+	// 	value: ...not sure yet, I'll put null and see what happens (this needs to be both not undefined and 0?)
 	// }
 	Object.defineProperty(myValue, "not sure yet", {
 		enumberable: false,
 		configurable: true,
 		writable: true,
 		value: null}
-	);	
+	);
+
+	// Test 3 requires that the property .value be 0 by default 
 }
 
 module.exports = function(options) {
