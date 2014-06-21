@@ -12,20 +12,18 @@ function Value(options){
 	// My property is "the name of the property to be defined" (Ah-ha! e.g., "myString", "date", "min")
 	// My descriptor I think needs to be an accessor descriptor or getter/setter
 	// because Test 1 mentions that Value should not have enumberable properties
-	// but eventually I'll also want to be able to change things 
-	// so it needs to be writable/configurable.
 	// Therefore I would construct my descriptor like this:
-	Object.defineProperty(myValue, "tbc", {
+	Object.defineProperty(myValue, "AnythingIWant", {
 		enumberable: false,
-		configurable: true,
-		writable: true,
-		value: "not sure yet"} 
+		// What is the value for? It's the property value of Myvalue
+		value: "not sure yet"}
 	);
 
 	// Test 3 requires that the property .value be 0 by default
 	// Based on my reading I think I would need to change 
 	// the property descriptor value to 0 for this test to pass
 
+	return myValue;
 }
 
 module.exports = function(options) {
