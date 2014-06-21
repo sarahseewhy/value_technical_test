@@ -26,10 +26,11 @@ test('property .value is defined', function(t){
 });
 // tests that the Value is defined (not undefined) 
 
-// test('.value should be 0 by default', function(t){
-//   t.equal(Value().value, 0);
-//   t.end();
-// });
+test('.value should be 0 by default', function(t){
+	// Asserts that Value.value === 0
+  t.equal(Value().value, 0);
+  t.end();
+});
 // // tests that value is 0 by default
 
 // test('.value can be assigned on instantiation', function(t){
