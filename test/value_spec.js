@@ -20,7 +20,7 @@ test('Value has no enumerable properties', function(t){
 test('property .value is defined', function(t){
 	// t.notEqual(a, b, msg)
 	// Asserts that a!===b w/ optional description msg
-	// Asserts that Value !=== void 0
+	// Asserts that Value({max: 1, value: Math.random()}) !=== void 0
   t.notEqual(Value({max: 1, value: Math.random()}), void 0);
   t.end();
 });
