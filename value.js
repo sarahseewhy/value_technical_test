@@ -19,7 +19,7 @@ function Value(options){
 		enumberable: false,
 		configurable: true,
 		writable: true,
-		value: true} // experimenting with the value (it needs to be both not undefined and 0)
+		value: "not sure yet"} 
 	);
 
 	// Test 3 requires that the property .value be 0 by default
