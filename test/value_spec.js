@@ -16,12 +16,14 @@ test('Value has no enumerable properties', function(t){
 });
 // tests to see if I've created a getter/setter (thank you research!)
 // Or could potentially test whether an empty hash has been created
-// saving this test for later
 
-// test('property .value is defined', function(t){
-//   t.notEqual(Value({max: 1, value: Math.random()}), void 0);
-//   t.end();
-// });
+test('property .value is defined', function(t){
+	// t.notEqual(a, b, msg)
+	// Asserts that a!===b w/ optional description msg
+	// Asserts that Value !=== void 0
+  t.notEqual(Value({max: 1, value: Math.random()}), void 0);
+  t.end();
+});
 // tests that the Value is defined (not undefined) 
 
 // test('.value should be 0 by default', function(t){
