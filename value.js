@@ -9,17 +9,17 @@ function Value(options){
 	// Test 2 requires I create a property '.value' where .value is defined
 	// How to define a new property from MDN doc: Object.defineProperty(obj, prop, descriptor[written as hash])
 	// My obj is myValue
-	// My property is...not sure yet
+	// My property is "the name of the property to be defined" (Ah-ha! e.g., "myString", "date", "min")
 	// My descriptor I think needs to be an accessor descriptor or getter/setter
 	// because Test 1 mentions that Value should not have enumberable properties
 	// but eventually I'll also want to be able to change things 
 	// so it needs to be writable/configurable.
 	// Therefore I would construct my descriptor like this:
-	Object.defineProperty(myValue, "not sure yet", {
+	Object.defineProperty(myValue, "tbc", {
 		enumberable: false,
 		configurable: true,
 		writable: true,
-		value: 0} 
+		value: "not sure yet"} 
 	);
 
 	// Test 3 requires that the property .value be 0 by default
