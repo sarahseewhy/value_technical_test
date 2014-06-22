@@ -8,7 +8,6 @@ body {
 	font-size: 14px;
 	color: #666666;
 	background: #ffffff;
-	width: 960px;
 }
 
 #page-container {
@@ -49,7 +48,7 @@ h1 {
 
 #sidebar {
 	float: left;
-	width: 320px; /* Sort out width, must conform to specifications */
+	width: 388px; /* Sort out width, must conform to specifications */
 	line-height: 18px;
 }
 
@@ -84,9 +83,8 @@ h1 {
 	}
 
 #content {
-	margin-left: 260px;
 	line-height: 18px;
-	width: 640px;
+	width: 626px;
 }
 	
 	#content h2 {
