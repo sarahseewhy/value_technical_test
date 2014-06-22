@@ -50,7 +50,8 @@ v.value
 => 0
 // Returns the default 'value' of 0 (which I ascertained from test 4) 
 // I presume then that '.value' is proverbially 'asking' for v's value because a value is answered or returned
-// The default 0 is given, therefore I conclude that with no arguments the value reverts to a default
+// The default 0 is returned, therefore I conclude that with no arguments the 'value' reverts to a default
+
 
 
 
