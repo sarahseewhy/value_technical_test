@@ -1,6 +1,14 @@
 Exericse 1
 
-[TBC]
+1. Understand assignment
+
+	I need to create a website with the specified requirements (see README).
+
+2. Break down assignment into smaller parts
+
+	This is conveniently done in the README.
+
+3. If stuck, use Google. Remember to take things in small pieces and step by step.
 
 Exercise 2
 
