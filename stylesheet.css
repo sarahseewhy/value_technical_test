@@ -47,7 +47,7 @@ h1 {
 
 #sidebar {
 	float: left;
-	width: 280px;
+	width: 380px; /* Sort out width, must conform to specifications */
 	line-height: 18px;
 }
 
