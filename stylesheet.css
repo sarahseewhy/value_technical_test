@@ -74,7 +74,11 @@ h1 {
 	}
 
 	#sidebar .author {
-		color: #6E8B3D;
+		color: #838B83;
+	}
+
+	#sidebar .spanDate {
+		font-style: italic; /* Ideally, this would be a dynamic spanDate using javascript */
 	}
 
 #content {
@@ -114,7 +118,7 @@ h1 {
 	}
 
 	#footer a:hover {
-		color: orange;
+		color: #82B743;
 	}
 
 	#footer #altnav {
