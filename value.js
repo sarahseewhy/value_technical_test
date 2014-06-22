@@ -15,16 +15,15 @@ function Value(options){
 	Object.defineProperty(myValue, "minimum", {
 		enumberable: false,
 		configurable: true,
-		value: (options !== undefined && options.minimum: 0)
+		value: (options !== undefined && options.minimum === 0) 
 
 	});
 
 	// Test 3 requires that the property .value be 0 by default. So options are not undefined AND 0 by default.
 	// What's another word for default? If the test expect the options to be between 0 and 1 where 0 is the default, 
-	// then the default (0) is also the minimum.
-	// What is the minimum? What it is the minimum of? OPTIONS
-	// 
-
+	// then the default (0) is also the minimum
+	// What it is the minimum of? OPTIONS
+	// My test fails because it finds ~ (undefined?) when it expects 0
 
 
 	return myValue;
