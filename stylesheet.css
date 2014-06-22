@@ -19,7 +19,9 @@ html, body {
 }
 
 #sidebar {
-	background: darkgreen;
+	background: yellow;
+	float: left;
+	width: 280px;
 }
 
 #content {
