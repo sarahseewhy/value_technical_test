@@ -17,6 +17,7 @@ body {
 
 #header {
 	height: 150px;
+	padding: 15px;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h1 {
 
 #main-nav {
 	height: 50px;
+	padding: 15px;
 }
 
 .button {
@@ -47,16 +49,29 @@ h1 {
 
 #sidebar {
 	float: left;
-	width: 380px; /* Sort out width, must conform to specifications */
+	width: 420px; /* Sort out width, must conform to specifications */
 	line-height: 18px;
 }
 
 	#sidebar .padding {
 		padding: 20px;
+		height: 250px;
+	}
+
+	#sidebar img {
+		float: left;
+		padding: 15px;
+	} 
+
+	#sidebar h3 {
+		color: #82B743;
+		padding: 0;
+		padding-bottom: 5px;
+		margin: 0;
 	}
 
 #content {
-	margin-left: 280px;
+	margin-left: 260px;
 	line-height: 18px;
 }
 	
