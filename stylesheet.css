@@ -33,7 +33,16 @@ h1 {
 #content {
 	background: green;
 }
+	
+	#content h2 {
+		margin: 0;
+		padding: 0;
+	}
 
+	#content p {
+		margin: 0;
+		padding: 0;
+	}
 #footer {
 	background: orange;
 	height: 65px;
