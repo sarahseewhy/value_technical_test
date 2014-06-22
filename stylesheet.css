@@ -31,4 +31,5 @@ html, body {
 #footer {
 	background: orange;
 	height: 65px;
+	clear: both;
 }
