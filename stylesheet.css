@@ -2,3 +2,8 @@ body {
   font-family: Helvetica, Arial, Sans-serif;
 }
 
+#page-container{
+	background: red;
+	width: 760px;
+	margin: auto;
+}
