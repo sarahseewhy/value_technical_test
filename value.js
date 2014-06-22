@@ -10,16 +10,21 @@ function Value(options){
 	// My obj is myValue
 	// My property is "the name of the property to be defined" (Ah-ha! e.g., "myString", "date", "min")
 	// My descriptor I think needs to be an accessor descriptor or getter/setter
-	// because Test 1 mentions that Value should not have enumberable properties
+	// because Test 1 mentions that Value should not have enumberable properties - but it also should be changeable 
 	// My value is the property value of (I think) options
 	Object.defineProperty(myValue, "AnythingIWant", {
 		enumberable: false,
-		value: (options !== undefined)};
-	);
+		configurable: true
+		value: (options !== undefined)
+	});
 
 	// Test 3 requires that the property .value be 0 by default
-	// Based on my reading I think I would need to change 
-	// the property descriptor value to 0 for this test to pass
+	// Based on my reading I think I would need to change the property descriptor value to 0 for this test to pass
+
+	Object.defineProperty(myValue, "default value", {
+		enumberable: false,
+		value: 0
+	});
 
 	return myValue;
 }
