@@ -52,7 +52,23 @@ v.value
 // I presume then that '.value' is proverbially 'asking' for v's value because a value is answered or returned
 // The default 0 is returned, therefore I conclude that with no arguments the 'value' reverts to a default
 
+var v2 = Value({value: 10, min: 0, max: 100})
+// declares a variable 'v2' and sets it equal to Value(options)
+// (options) in this case is a hash that seems to set certain specifications relating to properties of Value
+// there is a declared value of 10, a min of 0 and a max of 100
 
+v2.value = 101
+// I think here the value of v2 or '.value' is being set to 101
+// This returns an Error because of the specifications set in the **argument** (options) which declares a max value of 100
+// The specifications outlined in the argument seem to set the value parameters (properties?) of what Value() can be
+// I think this points to a relationship between (options) and the properties of Value
+// When no options are given, the .value of Value() reverts to a default property (0), presumably set in Object.defineProperty()
+// When options are given, but are beyond the boundary of the properties of Value set in Object.defineProperty() then an Error is thrown
+// If this is true, Value() should also behave like this
+
+var v3 = Value({value: 1, min: 0, max: 10})
+v3.value 
+=> 1
 
 
 
