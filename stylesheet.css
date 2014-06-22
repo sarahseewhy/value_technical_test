@@ -33,14 +33,16 @@ h1 {
 #sidebar {
 	float: left;
 	width: 280px;
+	line-height: 18px;
 }
 
-	#sidebare .padding {
+	#sidebar .padding {
 		padding: 20px;
 	}
 
 #content {
-	margin-right: 280px;
+	margin-left: 280px;
+	line-height: 18px;
 }
 	
 	#content h2 {
@@ -56,9 +58,13 @@ h1 {
 	}
 
 	#content .padding {
-		padding: 20px;
+		padding: 10px;
 	}
+
 #footer {
-	height: 65px;
+	height: 66px;
 	clear: both;
+	font-size: 10px;
+	color: #c9c9c9;
 }
+
