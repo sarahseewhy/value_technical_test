@@ -11,10 +11,10 @@ function Value(options){
 	// My property is "the name of the property to be defined" (Ah-ha! e.g., "myString", "date", "min")
 	// My descriptor I think needs to be an accessor descriptor or getter/setter
 	// because Test 1 mentions that Value should not have enumberable properties
-	// My value is the property value of my
+	// My value is the property value of (I think) options
 	Object.defineProperty(myValue, "AnythingIWant", {
 		enumberable: false,
-		value: "not sure yet"}
+		value: (options !== undefined)};
 	);
 
 	// Test 3 requires that the property .value be 0 by default

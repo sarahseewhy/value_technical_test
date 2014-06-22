@@ -70,6 +70,8 @@ var v3 = Value({value: 1, min: 0, max: 10})
 v3.value 
 => 1
 
+// With this in mind, test 2 asks that when Value({max: 1, value: Math.random()}), it (Value with that specific argument) does not equal void 0 (or undefined)
+// Therefore if I set the Object.defineProperty value to options !== undefined, this test should pass.
 
 
 
