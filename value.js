@@ -1,9 +1,8 @@
 // Test 1 requires I create a function 'Value' with an argument 'options'
 function Value(options){
-	// When I try to initialize the 'function' test 1 fails, I am unsure why
+	// When I try to initialize the 'function' test 1 fails, perhaps because the test is expecting an empty hash
 	// this.options = options;
 	
-	// Declaring a variable 'myValue' setting it to an empty hash
 	var myValue = {};
 
 	// Test 2 requires I create a property '.value' where .value is defined
@@ -12,10 +11,9 @@ function Value(options){
 	// My property is "the name of the property to be defined" (Ah-ha! e.g., "myString", "date", "min")
 	// My descriptor I think needs to be an accessor descriptor or getter/setter
 	// because Test 1 mentions that Value should not have enumberable properties
-	// Therefore I would construct my descriptor like this:
+	// My value is the property value of my
 	Object.defineProperty(myValue, "AnythingIWant", {
 		enumberable: false,
-		// What is the value for? It's the property value of Myvalue
 		value: "not sure yet"}
 	);
 
