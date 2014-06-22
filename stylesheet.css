@@ -3,8 +3,30 @@ html, body {
 	padding: 0;
 }
 
-#page-container{
-	background: red;
+#page-container {
 	width: 760px;
 	margin: auto;
+}
+
+#main-nav {
+	background:red;
+	height: 50px;
+}
+
+#header {
+	background: blue;
+	height: 150px;
+}
+
+#sidebar {
+	background: darkgreen;
+}
+
+#content {
+	background: green;
+}
+
+#footer {
+	background: orange;
+	height: 65px;
 }
