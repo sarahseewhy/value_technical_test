@@ -18,6 +18,11 @@ html, body {
 	height: 150px;
 }
 
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
 #sidebar {
 	background: yellow;
 	float: left;
