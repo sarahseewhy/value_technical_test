@@ -1,4 +1,4 @@
-Exericse 1
+***Exericse 1***
 
 1. Understand assignment
 
@@ -10,15 +10,15 @@ Exericse 1
 
 3. If stuck, use Google. Remember to take things in small pieces and step by step.
 
-**REFLECTION**
+***REFLECTION***
 
-Enjoyd: I found creating a basic layout to be enjoyably rhythmic. Starting with color blocking was especially fun, it helped me see the development of the site. The cat filler images were a great suggestion too. 
+__Enjoyd__: I found creating a basic layout to be enjoyably rhythmic. Starting with color blocking was especially fun, it helped me see the development of the site. The cat filler images were a great suggestion too. 
 
-Helpful: Beginning and thinking about the process in a step by step manner was especially helpful. Color blocking the main sections at first to get a general sense of the layout helped tremoundously. Once everything was 'in place' I was able to go back and begin to add layers of details. It reminded me of painting. 
+__Helpful__: Beginning and thinking about the process in a step by step manner was especially helpful. Color blocking the main sections at first to get a general sense of the layout helped tremoundously. Once everything was 'in place' I was able to go back and begin to add layers of details. It reminded me of painting. 
 
-Next time: I think I would've tried to establish the specified ratio when I began with the color blocking. By the time I got to figuring the 1/3 to 2/3 ratio elements on the site would move around if I changed too much. I probably would've added more details, but I get the feeling with CSS that layering of details is a process that could become never-ending. I wanted the site to be simple. 
+__Next time__: I think I would've tried to establish the specified ratio when I began with the color blocking. By the time I got to figuring the 1/3 to 2/3 ratio, elements on the site would move around if I changed too much. I probably would've added more details, but I get the feeling with CSS that layering of details is a process that could become never-ending. I wanted the site to be simple. 
 
-Exercise 2
+***Exercise 2***
 
 1. Understand assignment 
 	
@@ -89,12 +89,13 @@ v3.value
 // With this in mind, test 2 asks that when Value({max: 1, value: Math.random()}), it (Value with that specific argument) does not equal void 0 (or undefined)
 // Therefore if I set the Object.defineProperty value to options !== undefined, this test should pass.
 
-**REFLECTION**
+***REFLECTION***
 
-Enjoyed: I found the challenge of the task to be the most enjoyable and the emphasis on recording my thought process. Javascript is not my first language and I learned so much completing this technical test. I also realize how much there is to learn! Even though I only got a few tests to pass, the learning in between was completely worth it. 
+__Enjoyed__: I found the challenge of the task and the emphasis on recording my thought process to be the most enjoyable. Javascript is not my first language and I learned so much completing this technical test. I also realize how much there is to learn! Even though I only got a few tests to pass, the learning in between was completely worth it -- I now want to spend the next few weeks just immersing myself in Javascript. 
 
-Helpful:
+__Helpful__: The task felt daunting at first, but the approach I learned at Makers to break down problems into smaller, mangeable parts really helped. When I got stuck it was easier to research specific aspects of smaller problems than try to find answers to broader questions. The MDN Javascript documentation was an incredible resource and I could easily spend another few days (weeks? years?) just reading that. I also found the npm testing suite documentation to be helpful in deciphering test expectations. As I was reaching the end of the time I had allotted on Exercise 2, going back and seeing if the end behavior of Value() could reveal anything about the inner functionality helped me understand aspects of JS that I hadn't realized.
 
-Next time:
-
+__Next time__: If this hadn't been a technical test I would've paired with someone whose knowledge of Javascript is more advanced than mine. There were a couple of moments when I was trying to figure out the MDN documentation or certain aspects of Object.defineProperty (getter/setters!) or the role of functions where a deeper understanding of Javascript would've been helpful. I know more about JS now than I did before, but this exercise really tested the basic knowledge I have and sometimes felt beyond what I am currently capable of. However, the fact that it was so challenging made me want to work harder and try different things and I look forward to when I've learned enough to complete the test. 
+ 
+It would be great to sit down with someone who knows JS in more detail than I do and walk through the problem to get a sense of how they would approach andy why. 
 
