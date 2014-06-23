@@ -10,6 +10,14 @@ Exericse 1
 
 3. If stuck, use Google. Remember to take things in small pieces and step by step.
 
+**REFLECTION**
+
+Enjoyd: I found creating a basic layout to be enjoyably rhythmic. Starting with color blocking was especially fun, it helped me see the development of the site. The cat filler images were a great suggestion too. 
+
+Helpful: Beginning and thinking about the process in a step by step manner was especially helpful. Color blocking the main sections at first to get a general sense of the layout helped tremoundously. Once everything was 'in place' I was able to go back and begin to add layers of details. It reminded me of painting. 
+
+Next time: I think I would've tried to establish the specified ratio when I began with the color blocking. By the time I got to figuring the 1/3 to 2/3 ratio elements on the site would move around if I changed too much. I probably would've added more details, but I get the feeling with CSS that layering of details is a process that could become never-ending. I wanted the site to be simple. 
+
 Exercise 2
 
 1. Understand assignment 
@@ -81,6 +89,12 @@ v3.value
 // With this in mind, test 2 asks that when Value({max: 1, value: Math.random()}), it (Value with that specific argument) does not equal void 0 (or undefined)
 // Therefore if I set the Object.defineProperty value to options !== undefined, this test should pass.
 
+**REFLECTION**
 
+Enjoyed: I found the challenge of the task to be the most enjoyable and the emphasis on recording my thought process. Javascript is not my first language and I learned so much completing this technical test. I also realize how much there is to learn! Even though I only got a few tests to pass, the learning in between was completely worth it. 
+
+Helpful:
+
+Next time:
 
 
